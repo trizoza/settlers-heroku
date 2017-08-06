@@ -15783,116 +15783,116 @@ var Game = function () {
 
       ///////// just for testing purposes /////////
 
-      var wood = this.bank.generateResourceCard("wood");
-      var wood1 = this.bank.generateResourceCard("wood");
-      var wood2 = this.bank.generateResourceCard("wood");
-      var wood3 = this.bank.generateResourceCard("wood");
-      var wood4 = this.bank.generateResourceCard("wood");
-      var wood5 = this.bank.generateResourceCard("wood");
-      var wood6 = this.bank.generateResourceCard("wood");
-      var wood7 = this.bank.generateResourceCard("wood");
-      var wood8 = this.bank.generateResourceCard("wood");
-      var wood9 = this.bank.generateResourceCard("wood");
-      var wood10 = this.bank.generateResourceCard("wood");
-      var wood11 = this.bank.generateResourceCard("wood");
-      var clay = this.bank.generateResourceCard("clay");
-      var clay1 = this.bank.generateResourceCard("clay");
-      var clay2 = this.bank.generateResourceCard("clay");
-      var clay3 = this.bank.generateResourceCard("clay");
-      var clay4 = this.bank.generateResourceCard("clay");
-      var clay5 = this.bank.generateResourceCard("clay");
-      var clay6 = this.bank.generateResourceCard("clay");
-      var clay7 = this.bank.generateResourceCard("clay");
-      var clay8 = this.bank.generateResourceCard("clay");
-      var clay9 = this.bank.generateResourceCard("clay");
-      var clay10 = this.bank.generateResourceCard("clay");
-      var clay11 = this.bank.generateResourceCard("clay");
-      var crop = this.bank.generateResourceCard("crop");
-      var crop1 = this.bank.generateResourceCard("crop");
-      var crop2 = this.bank.generateResourceCard("crop");
-      var crop3 = this.bank.generateResourceCard("crop");
-      var crop4 = this.bank.generateResourceCard("crop");
-      var crop5 = this.bank.generateResourceCard("crop");
-      var crop6 = this.bank.generateResourceCard("crop");
-      var crop7 = this.bank.generateResourceCard("crop");
-      var crop8 = this.bank.generateResourceCard("crop");
-      var crop9 = this.bank.generateResourceCard("crop");
-      var crop10 = this.bank.generateResourceCard("crop");
-      var sheep = this.bank.generateResourceCard("sheep");
-      var sheep1 = this.bank.generateResourceCard("sheep");
-      var sheep2 = this.bank.generateResourceCard("sheep");
-      var sheep3 = this.bank.generateResourceCard("sheep");
-      var sheep4 = this.bank.generateResourceCard("sheep");
-      var sheep5 = this.bank.generateResourceCard("sheep");
-      var sheep6 = this.bank.generateResourceCard("sheep");
-      var sheep7 = this.bank.generateResourceCard("sheep");
-      var sheep8 = this.bank.generateResourceCard("sheep");
-      var sheep9 = this.bank.generateResourceCard("sheep");
-      var sheep10 = this.bank.generateResourceCard("sheep");
-      var rock = this.bank.generateResourceCard("rock");
-      var rock1 = this.bank.generateResourceCard("rock");
-      var rock2 = this.bank.generateResourceCard("rock");
-      var rock3 = this.bank.generateResourceCard("rock");
-      var rock4 = this.bank.generateResourceCard("rock");
-      var rock5 = this.bank.generateResourceCard("rock");
-      var rock6 = this.bank.generateResourceCard("rock");
-      var rock7 = this.bank.generateResourceCard("rock");
-      var rock8 = this.bank.generateResourceCard("rock");
-      var rock9 = this.bank.generateResourceCard("rock");
-      var rock10 = this.bank.generateResourceCard("rock");
+      // const wood = this.bank.generateResourceCard("wood")
+      // const wood1 = this.bank.generateResourceCard("wood")
+      // const wood2 = this.bank.generateResourceCard("wood")
+      // const wood3 = this.bank.generateResourceCard("wood")
+      // const wood4 = this.bank.generateResourceCard("wood")
+      // const wood5 = this.bank.generateResourceCard("wood")
+      // const wood6 = this.bank.generateResourceCard("wood")
+      // const wood7 = this.bank.generateResourceCard("wood")
+      // const wood8 = this.bank.generateResourceCard("wood")
+      // const wood9 = this.bank.generateResourceCard("wood")
+      // const wood10 = this.bank.generateResourceCard("wood")
+      // const wood11 = this.bank.generateResourceCard("wood")
+      // const clay = this.bank.generateResourceCard("clay")
+      // const clay1 = this.bank.generateResourceCard("clay")
+      // const clay2 = this.bank.generateResourceCard("clay")
+      // const clay3 = this.bank.generateResourceCard("clay")
+      // const clay4 = this.bank.generateResourceCard("clay")
+      // const clay5 = this.bank.generateResourceCard("clay")
+      // const clay6 = this.bank.generateResourceCard("clay")
+      // const clay7 = this.bank.generateResourceCard("clay")
+      // const clay8 = this.bank.generateResourceCard("clay")
+      // const clay9 = this.bank.generateResourceCard("clay")
+      // const clay10 = this.bank.generateResourceCard("clay")
+      // const clay11 = this.bank.generateResourceCard("clay")
+      // const crop = this.bank.generateResourceCard("crop")
+      // const crop1 = this.bank.generateResourceCard("crop")
+      // const crop2 = this.bank.generateResourceCard("crop")
+      // const crop3 = this.bank.generateResourceCard("crop")
+      // const crop4 = this.bank.generateResourceCard("crop")
+      // const crop5 = this.bank.generateResourceCard("crop")
+      // const crop6 = this.bank.generateResourceCard("crop")
+      // const crop7 = this.bank.generateResourceCard("crop")
+      // const crop8 = this.bank.generateResourceCard("crop")
+      // const crop9 = this.bank.generateResourceCard("crop")
+      // const crop10 = this.bank.generateResourceCard("crop")
+      // const sheep = this.bank.generateResourceCard("sheep")
+      // const sheep1 = this.bank.generateResourceCard("sheep")
+      // const sheep2 = this.bank.generateResourceCard("sheep")
+      // const sheep3 = this.bank.generateResourceCard("sheep")
+      // const sheep4 = this.bank.generateResourceCard("sheep")
+      // const sheep5 = this.bank.generateResourceCard("sheep")
+      // const sheep6 = this.bank.generateResourceCard("sheep")
+      // const sheep7 = this.bank.generateResourceCard("sheep")
+      // const sheep8 = this.bank.generateResourceCard("sheep")
+      // const sheep9 = this.bank.generateResourceCard("sheep")
+      // const sheep10 = this.bank.generateResourceCard("sheep")
+      // const rock = this.bank.generateResourceCard("rock")
+      // const rock1 = this.bank.generateResourceCard("rock")
+      // const rock2 = this.bank.generateResourceCard("rock")
+      // const rock3 = this.bank.generateResourceCard("rock")
+      // const rock4 = this.bank.generateResourceCard("rock")
+      // const rock5 = this.bank.generateResourceCard("rock")
+      // const rock6 = this.bank.generateResourceCard("rock")
+      // const rock7 = this.bank.generateResourceCard("rock")
+      // const rock8 = this.bank.generateResourceCard("rock")
+      // const rock9 = this.bank.generateResourceCard("rock")
+      // const rock10 = this.bank.generateResourceCard("rock")
 
-      player1.resourceCards.push(wood);
-      player1.resourceCards.push(wood1);
-      player1.resourceCards.push(wood2);
-      player1.resourceCards.push(wood3);
-      player1.resourceCards.push(wood10);
-      player1.resourceCards.push(wood11);
-      player1.resourceCards.push(clay);
-      player1.resourceCards.push(clay1);
-      player1.resourceCards.push(clay2);
-      player1.resourceCards.push(clay3);
-      player1.resourceCards.push(clay10);
-      player1.resourceCards.push(clay11);
-      player1.resourceCards.push(sheep);
-      player1.resourceCards.push(sheep1);
-      player1.resourceCards.push(crop);
-      player1.resourceCards.push(crop1);
-      player1.resourceCards.push(rock);
-      player1.resourceCards.push(rock1);
-      player1.resourceCards.push(rock2);
+      // player1.resourceCards.push(wood)
+      // player1.resourceCards.push(wood1)
+      // player1.resourceCards.push(wood2)
+      // player1.resourceCards.push(wood3)
+      // player1.resourceCards.push(wood10)
+      // player1.resourceCards.push(wood11)
+      // player1.resourceCards.push(clay)
+      // player1.resourceCards.push(clay1)
+      // player1.resourceCards.push(clay2)
+      // player1.resourceCards.push(clay3)
+      // player1.resourceCards.push(clay10)
+      // player1.resourceCards.push(clay11)
+      // player1.resourceCards.push(sheep)
+      // player1.resourceCards.push(sheep1)
+      // player1.resourceCards.push(crop)
+      // player1.resourceCards.push(crop1)
+      // player1.resourceCards.push(rock)
+      // player1.resourceCards.push(rock1)
+      // player1.resourceCards.push(rock2)
 
-      player2.resourceCards.push(wood4);
-      player2.resourceCards.push(wood5);
-      player2.resourceCards.push(clay4);
-      player2.resourceCards.push(clay5);
-      player2.resourceCards.push(sheep3);
-      player2.resourceCards.push(sheep4);
-      player2.resourceCards.push(crop3);
-      player2.resourceCards.push(crop4);
-      player2.resourceCards.push(rock3);
-      player2.resourceCards.push(rock4);
+      // player2.resourceCards.push(wood4)
+      // player2.resourceCards.push(wood5)
+      // player2.resourceCards.push(clay4)
+      // player2.resourceCards.push(clay5)
+      // player2.resourceCards.push(sheep3)
+      // player2.resourceCards.push(sheep4)
+      // player2.resourceCards.push(crop3)
+      // player2.resourceCards.push(crop4)
+      // player2.resourceCards.push(rock3)
+      // player2.resourceCards.push(rock4)
 
-      player3.resourceCards.push(wood6);
-      player3.resourceCards.push(wood7);
-      player3.resourceCards.push(clay6);
-      player3.resourceCards.push(clay7);
-      player3.resourceCards.push(sheep5);
-      player3.resourceCards.push(sheep6);
-      player3.resourceCards.push(crop5);
-      player3.resourceCards.push(crop6);
-      player3.resourceCards.push(rock5);
-      player3.resourceCards.push(rock6);
+      // player3.resourceCards.push(wood6)
+      // player3.resourceCards.push(wood7)
+      // player3.resourceCards.push(clay6)
+      // player3.resourceCards.push(clay7)
+      // player3.resourceCards.push(sheep5)
+      // player3.resourceCards.push(sheep6)
+      // player3.resourceCards.push(crop5)
+      // player3.resourceCards.push(crop6)
+      // player3.resourceCards.push(rock5)
+      // player3.resourceCards.push(rock6)
 
-      player4.resourceCards.push(wood8);
-      player4.resourceCards.push(wood9);
-      player4.resourceCards.push(clay8);
-      player4.resourceCards.push(clay9);
-      player4.resourceCards.push(sheep7);
-      player4.resourceCards.push(sheep8);
-      player4.resourceCards.push(crop7);
-      player4.resourceCards.push(crop8);
-      player4.resourceCards.push(rock7);
-      player4.resourceCards.push(rock8);
+      // player4.resourceCards.push(wood8)
+      // player4.resourceCards.push(wood9)
+      // player4.resourceCards.push(clay8)
+      // player4.resourceCards.push(clay9)
+      // player4.resourceCards.push(sheep7)
+      // player4.resourceCards.push(sheep8)
+      // player4.resourceCards.push(crop7)
+      // player4.resourceCards.push(crop8)
+      // player4.resourceCards.push(rock7)
+      // player4.resourceCards.push(rock8)
 
       /////////////////////////////////
     }
