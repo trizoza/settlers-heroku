@@ -1,0 +1,172 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#game-container {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 172, 191);
+}
+
+.number-rolled {
+  display: block;
+  position: absolute;
+  left: 250px;
+  top: 250px;
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.tile {
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 138px;
+}
+
+.port {
+  display: block;
+  position: absolute;
+  width: 69px;
+  height: 15px;
+}
+
+.road {
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 38px;
+  border: solid 1px black;
+}
+
+.node {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: solid 1px black
+}
+
+.city {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 24px;
+  border: solid 1px black
+}
+
+.tile-number {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 251, 208);
+  text-align: center;
+  padding-top: 6px;
+}
+
+#invisibleButton {
+  display: none;
+}
+
+.robber {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: black;
+  text-align: center;
+  padding-top: 6px;
+}
+
+#opponents-block {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: orange;
+}
+
+#player-stats-block {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 300px;
+  height: 100%;
+  background-color: tomato;
+}
+
+#winner-screen {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+}
+
+#winner-screen h1 {
+  display: block;
+  width: 400px;
+  margin: 200px auto;
+}
+
+#welcome-screen {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+}
+
+#welcome-screen h1 {
+  display: block;
+  width: 400px;
+  margin: 200px auto 10px;
+}
+
+#welcome-screen h2 {
+  display: block;
+  width: 400px;
+  margin: 20px auto 10px;
+}
+
+#welcome-screen form {
+  display: block;
+  width: 400px;
+  margin: 20px auto 10px;
+}
+
+#welcome-screen button {
+  display: block;
+  width: 400px;
+  margin: 30px auto 200px;
+}
+
+.welcome-input {
+  margin: 15px;
+}
+
+.dev-card {
+  display: block;
+}
